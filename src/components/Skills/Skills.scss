@@ -1,0 +1,31 @@
+.col_2.skills_left {
+  h1 {
+    color: var(--pure-black);
+    padding: 5px 0px;
+    line-height: 48px;
+  }
+  p {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 30%;
+    line-height: 1.7;
+    margin-top: 20px;
+  }
+}
+
+.col_2.skills_right {
+  h1 {
+    color: var(--black);
+    font-size: 40px;
+    padding-right: 20%;
+    padding-top: 15px;
+    font-weight: 600;
+  }
+  span {
+    color: var(--black);
+    font-size: 16px;
+    padding: 20px 10px;
+    font-weight: 400;
+  }
+}

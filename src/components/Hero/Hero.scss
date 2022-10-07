@@ -1,0 +1,159 @@
+.mask_effect {
+  background-image: url(../../Assests/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.hero_main {
+  height: 100vh;
+  .left_varse_hero {
+    width: 40%;
+    .hero_content {
+      h1:first-child {
+        font-size: 3rem;
+        color: var(--black);
+        line-height: 1.4;
+      }
+      h1:nth-child(2) {
+        font-size: 2.5rem;
+        font-weight: 600;
+        padding-left: 25px;
+      }
+      p {
+        font-size: 16px;
+        color: #111111c7;
+        padding: 20px 0px;
+        font-weight: 400;
+      }
+    }
+  }
+  .right_varse_Hero {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+}
+
+.btn.hire_hero {
+  box-shadow: 0px 10px 15px 3px #1bb944;
+  cursor: pointer;
+  margin: 0;
+}
+.blur_effect_hero {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #1bb944db;
+  position: fixed;
+  top: 2%;
+  z-index: 10000;
+  filter: blur(16px);
+  left: 1%;
+}
+.round_effect {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
+.white {
+  top: 27%;
+  border: 2px solid #fff;
+  right: 36%;
+  animation: bouncing 3s linear infinite;
+  position: absolute!important;
+}
+.Hero_image{
+  animation: bouncing 3s linear infinite;
+}
+.green{
+    top: 25%;
+    border: 2px solid #1bb944;
+    right: 55%;
+    width: 18px;
+    height: 18px;
+}
+.crimson{
+    top: 12%;
+    border: 2px solid crimson;
+    left: 25%;
+    width: 18px;
+    height: 18px;
+}
+.star_effect{
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+    animation: rotate 3s linear infinite;
+}
+img.moddies{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    height: 90px;
+    width: 90px;
+    animation: moddies 3s linear infinite;
+}
+.skills_box_hero{
+    width: 15%;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 3%;
+    right: 40%;
+    box-shadow: 0px 10px 15px 3px #06060659;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slide 3s linear infinite;
+}
+// animations
+
+@keyframes bouncing {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes moddies {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes slide {
+    0%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
